@@ -1,116 +1,148 @@
-# Intro to Coding with p5.js Workshop 
+# Lab 1: Set up and Basics of p5.js
 
-A one-week workshop taught at Anderson Ranch, August 2016
+This is the first of four labs we'll be doing to get you comfortable with p5.js.
 
-Explore the creative potential of networked, shareable art in this introduction to coding with p5.js—a platform for making interactive, visual experiences online. Students experiment with creating simple visuals, as well as integrating video, sound, sensors and mobile devices. Tutorials and code samples are balanced with individual reviews and time to work in the studio. This is an excellent initiation into the artistic possibilities of code. [https://www.andersonranch.org/workshop/intro-to-coding-with-p5-js-p1130-2016/](https://www.andersonranch.org/workshop/intro-to-coding-with-p5-js-p1130-2016/)
+# Set up
 
-## Student Work
-[projects page](https://lmccart.github.io/p5-workshop/)
+You'll be working in groups of 3. We suggest the following setup:
 
-## Schedule
+Option 1:
 
-### Monday - Hello world
-1. __Intro__ Meet and greet, workshop overview, objectives.
-2. __Drawing Instructions__ An exercise inspired by the [Conditional Design group](http://conditionaldesign.org/). Read their [manifesto](http://conditionaldesign.org/manifesto/) and check out the [archive](http://conditionaldesign.org/archive/) of instructions and drawings. Check out [knots](http://conditionaldesign.org/workshops/knots/), [hatching](http://conditionaldesign.org/workshops/hatching/), and [convex city plan](http://conditionaldesign.org/workshops/convex-city-plan/).
+- All 3 of you clone the repo in the terminal:
 
-  * Break into partners. As a team, devise a set of instructions to create a drawing. Write out the instructions on paper provided.
-  * Switch instructions with another pair. You create a drawing based on their instructions, and they create a drawing based on yours.
-  
-3. __Discussion: context__
-  * A few references: [Sol LeWitt](https://en.wikipedia.org/wiki/Sol_LeWitt), [Yoko Ono](https://monoskop.org/images/2/2a/Ono_Yoko_Grapefruit_A_Book_of_Instructions_and_Drawings_by_Yoko_Ono_S_and_S_edition_excerpt.pdf) and other [instruction artists](http://www.e-flux.com/projects/do_it/notes/essay/e002_text.html), Casey Reas Eyeo2012 talk on [Chance Operations](https://vimeo.com/45851523).
-  * What is programming?
-  * What is Processsing and p5.js?
-  * What is happening with the browser?
-  * What can you make? Some [incomplete ispiration](https://github.com/lmccart/p5-workshop/raw/master/inspiration.md).
+```
+git clone https://github.com/Snap-Engineering-Academy-2021/p5-lab-1.git
+```
 
-4. __Playing around__
+- Take turns sharin screen.
+- When 1 person shares screen, the other 2 follow along, typing on their own computers as well.
+- To run the code, go to the relevant folder and type `open index.html` in the terminal. For example, if you want to open the first code snippet and you were already in `p5-lab-1`, you would type:
 
-  * Download the [p5.js editor](http://p5js.org/download/).
-  * Try adding some of the lines of code from [this list](https://github.com/lmccart/p5-workshop/blob/master/commands.md) into the places where it says `setup()` and `draw()`. Press the play button to run your code.
-  * Can you figure out what each of the lines does? What is the difference between `setup()` and `draw()`?
+```
+cd 01_background
+open index.html
+```
 
-5. __Tutorial: Basic drawing__ Download examples [here](https://github.com/lmccart/p5-workshop/raw/master/01_drawing/01_drawing.zip). More walk through examples [here](http://p5js.org/home/).
+Option 2:
 
-6. __Tutorial: Variables__ Download examples [here](https://github.com/lmccart/p5-workshop/raw/master/02_variables_animation/02_variables_animation.zip).
+- Person 1 forks a version of this online repo at Replit.
+- Person 1 shares the Invite link with Person 2 and 3.
+- All three people can type at the same time (like Google Docs)!
+- To run the code, change the URL path.
 
-7. __Studio: Found object__ 
-  * Go for a walk around the ranch and surrounding area and find an object that intrigues or inspires you.
-  * Replicate it with code. It can be as realistic or abstract as you like.
-  * Include one element that is different each time you load the sketch.
-  * Include one element that changes as you move the mouse.
-  
+```
+cd 01_background
+open index.html
+```
 
-### Tuesday - Play it
+# To Do
 
-0. __Review: Found objects__
-1. Download examples [here](https://github.com/lmccart/p5-workshop/raw/master/02_variables_animation/02_variables_animation.zip).
-2. __Tutorial: Logic I - if__ With a partner, make inverse programs.
-2. __Tutorial: Logic II - animation__ Add an element of timing to your found object piece.
-3. __Tutorial: Logic III - interactivity__ Make a sketch with two inputs (ex: a rollover button and a clickable button, or a keypress and a mouse click)
-4. __Studio: Brainstorm games__
- * Concept: Using what you've learned so far, come up with a simple single player game. Try to keep the mechanic and interaction as simple as possible to start out. [Here is some inspiration](https://github.com/lmccart/p5-workshop/blob/master/inspiration.md#games).
- * Mechanics:
-    * What is the goal? What does the user do?
-    * How do you win or finish? (OR DO YOU)
- * Details:
-    * How do you detect if the player is achieving the goal?
-    * How do you communicate to the player how they are doing?
-    * What are the different “states”? Are there levels? Just a playing mode vs gameover mode?
-    * Is there timing involved?
-    * What are the different mini problems you will need to tackle to put this together?
+Your mission today is to go through as many of the following code snippets as possible. Each code snippet will explore an aspect of p5.js.
 
-5. __Studio: Paper prototype games__ Find a way to create some kind of paper prototype that you can test with others, or a storyboard that you can walk through with another person. Try to represent the different elements that come into play at different event times.
-6. __Tutorial: Logic III - state__
-7. __Studio: Build games__
-8. __Discussion: FTP__
+HINT: You can find all of the answers to the questions below at [p5.js.org](p5js.org).
 
-### Wednesday - Where are you?
+1. [01_background](./01_background/sketch.js)
 
-0. __Tutorial: Logic Review__ Download [logic examples](https://github.com/lmccart/p5-workshop/raw/master/04_logic/04_logic.zip).
- * State variable as counter
- * State variable as switch
- * State variable as switch, with button
- * State variable as toggle, with button
- * State variable as level
-1. __Studio: Build games__
-2. __Tutorial: Media__  Download [media examples](https://github.com/lmccart/p5-workshop/raw/master/05_media/05_media.zip).
- * Images
- * Text
- * Sound
-3. __Tutorial: Functions__  Download [functions examples](https://github.com/lmccart/p5-workshop/raw/master/05_functions/05_functions.zip).
- * Functions that calculate.
- * Functions that draw.
- * Functions with parameters.
-4. __Studio: Make a location-based artwork__ For this project we will be making a location-based artwork to be used around Anderson Ranch. Here is some [geolocative art inspiration]().
- * On your mobile phone, go to this url: https://lmccart.github.io/p5-workshop/geo/. Be sure to allow location services.
- * Walk around the ranch and surrounding areas with your notebook. Note interesting locations, and record the lat/lon at that location, and a short description. Start thinking about what you might like to see at each location, and a general concept for the piece.
- * Flesh out your concept and sketch what you will see/hear/etc at each location on paper. How will people know to find each location? Will they wander and stumble, will your piece direct them, or will they carry an accompanying map?
- * Begin to sketch the different location views in code. You can make a separate sketch for each.
- * __Test Sketch [here](https://github.com/lmccart/p5-workshop/raw/master/07_location/testLocation.zip)__
- * __Test GPS Sketch [here](https://github.com/lmccart/p5-workshop/raw/master/07_location/testLocationGPS.zip)__
+- What are the parameters (aka inputs) of `createCanvas()`?
+- Change the canvas size to the full width and full height of your screen.
+- Why is there a quick flash every time you load the page? Get rid of the flash.
+- Change the background of this canvas to bright pink. You may want to use [this reference](https://p5js.org/reference/#/p5/background).
 
-### Thursday - Take it further
+2.  [02_shapes](./02_shapes/sketch.js)
 
-0. __Studio: Location-based pieces__
- * __Test Sketch [here](https://github.com/lmccart/p5-workshop/raw/master/07_location/testLocation.zip)__
- * __Test GPS Sketch [here](https://github.com/lmccart/p5-workshop/raw/master/07_location/testLocationGPS.zip)__
-2. __Studio: Final projects__ Work on final projects, individual crits and tutorial.
+- What are the inputs for `rect()` and `ellipse()`? You may want to check out [this reference](https://p5js.org/reference/#/p5/ellipse).
+- Change the inputs for either the rectangle or the ellipse so that they are not overlapping on the screen.
+- Change the color of the stroke.
+- Change the stroke to `noStroke()`
+- Change the color of the fill.
+- Change the fill to `noFill()`
+- Create at least one more type of shape by going to the "Shapes" section of the reference [here](https://p5js.org/reference/).
 
-### Friday - Wrap it up
+3.  [03_colors](./03_colors/sketch.js)
 
-0. __Studio: Final projects__ Work on final projects, individual crits and tutorial.
-1. __Discussion: p5 community__
-2. Final review, wrap-up, next steps.
+- What is the difference between HSB and RGB? Use `colorMode()` and the online reference to set the background to light grey using HSB values.
+- Add a fourth number in between 0 and 255 to the `fill()` function. What happens? This fourth argument is called the alpha.
 
+```
+Example:
+    fill(255,0,0); --> fill(255, 0, 0, 200);
+```
 
-## Resources
+4.  [04_shapescheck](./04_shapescheck/sketch.js)
 
-* [p5js.org](http://p5js.org) - p5.js website, includes library, reference, examples, and tutorials
-* [p5.js forum](https://forum.processing.org/two/) - good place for p5.js programming question
-* [Daniel Shiffman's Coding Rainbow](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) - p5.js tutorials
-* [Getting Started with p5.js](https://www.amazon.com/Make-Interactive-Graphics-JavaScript-Processing/dp/1457186772) - by Lauren McCarthy, Casey Reas, and Ben Fry, O'Reilly 2016
-* [Intro to programming for the visual arts with p5.js](https://www.kadenze.com/courses/introduction-to-programming-for-the-visual-arts-with-p5-js/info) - online class from kadenze, free with sign up
-* [Additional resources page](https://github.com/ITPNYU/ICM-2015/wiki/Resources)
+- Nice! Now talk through this javascript file. Make sure everyone in your group feels good about every single line of code in here before moving on.
+- Add some color to this creature!
 
-## Web Hosting Options
-* [Dreamhost](https://www.dreamhost.com/promo/dreamsavings50/) - promo $50/off year
+5. [05_variables](./05_variables/sketch.js)
+
+- There's a lot going on in this code snippet (it's actually 2 code snippets), but the focus is on variables.
+- First, check out the variables `y` and `d`. Change those and see what happens.
+
+- Then, comment out lines 17 - 21. Uncomment lines 23 - 36.
+- Check out the variables `background`, `length`, `angle`, and `loops`. Make changes to the variables and see what happens.
+- There are 3 ways to declare a variable in Javascript. What is the difference between `var`, `let`, and `const`? If you get stuck, you can refer to [this guide](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/).
+- Talk through every line of the code and make sure everyone in your group feels good about what it's doing! Flag an instructor to join your breakout room before moving on.
+
+6. [06_mouseVariables](./06_mousevariables/sketch.js)
+
+- `mouseX` and `mouseY` are two variables built-in to p5.js that you'll find very useful.
+- Currently this sketch draws a single ellipse at the location (x = 20, y = 30). Change one line so that you draw an ellipse at the same location as your mouse every frame (hint: use the two variables above!).
+- Use console.log() to log the mouseX and mouseY within the `draw()` function. Check that it's logging in the console!
+- Comment out line 15. What difference does that make, and why?
+
+- Let's add one more mouse variable: `mousePressed`. Copy-paste this code right before you create the ellipse in the `draw()` function.
+
+```
+    if (mouseIsPressed) {
+        stroke('red');
+    } else {
+        stroke('green');
+    }
+```
+
+7. [07_events](./07_events/sketch.js)
+
+- We're going to use some built-in event listeners within p5.js. Event listeners are functions that get triggered every time a specific event happens, such as a mouse click (`mouseClicked`) or a keyboard character being entered (`keyPressed`).
+- Run the code. Then comment the lines and uncomment lines 28 - 41. What is the difference between using the variable `mouseIsPressed` and the event listenered `mouseClicked`?
+- Then copy-paste this code below in line 43:
+
+```
+function keyPressed(){
+  if (keyCode === RIGHT_ARROW) {
+    d += 200;
+  }
+}
+```
+
+- What happens if you run the code and click the right arrow key? Now add another conditional statement so that the diameter of the circle shrinks if you hit the left arrow key.
+
+# Concept Check: Make a Giant Crayon
+
+8. [08_giantcrayon](./08_giantcrayon/sketch.js)
+
+- At this point, you have a lot of tools under your p5.js belt! As a concept check, try to recreate this giant crayon: http://p5js.site44.com/001/index.html.
+
+9.  [09_randomness](./09_random/sketch.js)
+
+- What if you wanted to switch up the color of your giant crayon?
+- Copy paste your code from part 8.
+- Read the documentation [here](https://p5js.org/reference/#/p5/random) and have the giant crayon paint in a random color every time you reload the page from a list of colors (that you decide).
+- For a hint, [this template](https://github.com/Snap-Engineering-Academy-2021/p5-template) does something similar!
+
+- Then try and use the documentation to have the giant crayon paint the ellipse in a random SIZE every time.
+
+10. [10_gradient](./10_gradient/script.js)
+
+- What if you wanted to paint in a gradient?
+- Check out the documentation [here](https://p5js.org/reference/#/p5/lerpColor) and [here](https://p5js.org/reference/#/p5/map)
+- Change this code so that the gradient changes from top to bottom instead of left to right.
+
+11. [11_images](./11_images/script.js)
+
+- What if you wanted to leave an image instead of paint an ellipse?
+- Copy paste your code from part 8.
+- Read the documentation [here](https://p5js.org/reference/#/p5/loadImage) and have the giant crayon leave an image every time you CLICK the mouse (instead of erasing).
+
+# Credits
+
+This lab and assignment were adapted from Lauren Lee McCarthy's workshop here and Camille Utterback's class here. Thank you to these amazing educators and digital artists for their work. :)

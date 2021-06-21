@@ -131,13 +131,13 @@ function keyPressed(){
 
 - Then try and use the documentation to have the giant crayon paint the ellipse in a random SIZE every time.
 
-10. [10_gradient](./10_gradient/script.js)
+10. [10_gradient](./10_gradient/sketch.js)
 
 - What if you wanted to paint in a gradient?
 - Check out the documentation [here](https://p5js.org/reference/#/p5/lerpColor) and [here](https://p5js.org/reference/#/p5/map)
 - Change this code so that the gradient changes from top to bottom instead of left to right.
 
-11. [11_images](./11_images/script.js)
+11. [11_images](./11_images/sketch.js)
 
 - What if you wanted to leave an image instead of paint an ellipse?
 - Copy paste your code from part 8.
@@ -145,4 +145,4 @@ function keyPressed(){
 
 # Credits
 
-This lab and assignment were adapted from Lauren Lee McCarthy's workshop here and Camille Utterback's class here. Thank you to these amazing educators and digital artists for their work. :)
+This lab and assignment were adapted from Lauren Lee McCarthy, Camille Utterback, and Derrick McMillen. Thank you to these amazing educators and digital artists for their work. :)

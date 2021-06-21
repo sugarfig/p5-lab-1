@@ -39,7 +39,7 @@ open index.html
 
 Your mission today is to go through as many of the following code snippets as possible. Each code snippet will explore an aspect of p5.js.
 
-HINT: You can find all of the answers to the questions below at [p5.js.org](p5js.org).
+HINT: You can find all of the answers to the questions below at [p5.js.org](https://p5js.org).
 
 1. [01_background](./01_background/sketch.js)
 

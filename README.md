@@ -112,7 +112,7 @@ function keyPressed(){
 - What happens if you run the code and click the right arrow key? Now add another conditional statement so that the diameter of the circle shrinks if you hit the left arrow key.
 - 🚧 Talk through every line of the code and make sure everyone in your group feels good about what it's doing! Flag an instructor to join your breakout room before moving on.
 
-# Concept Check: Make a Giant Crayon
+# Concept Check: Make a Giant Crayon / Paintbrush 
 
 8. 🖍 [08_giantcrayon](./08_giantcrayon/sketch.js)
 
@@ -138,6 +138,10 @@ function keyPressed(){
 - What if you wanted to leave an image instead of paint an ellipse?
 - Copy paste your code from part 8.
 - Read the documentation [here](https://p5js.org/reference/#/p5/loadImage) and have the giant crayon leave an image every time you CLICK the mouse (instead of erasing).
+
+# Project Time!
+
+Head over to this repo to learn about the assignment: https://github.com/Snap-Engineering-Academy-2021/p5-template
 
 # Credits
 

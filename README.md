@@ -68,6 +68,7 @@ Example:
 
 - Nice! Now talk through this javascript file. Make sure everyone in your group feels good about every single line of code in here before moving on.
 - Optional: add some color to this creature!
+- 🚧 Talk through every line of the code and make sure everyone in your group feels good about what it's doing! Flag an instructor to join your breakout room before moving on.
 
 5. 🔢 [05_variables](./05_variables/sketch.js)
 

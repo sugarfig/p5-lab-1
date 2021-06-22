@@ -21,6 +21,8 @@ cd 01_background
 open index.html
 ```
 
+- Or, you can open the main `index.html` and follow the links there.
+
 Option 2:
 
 - Person 1 forks a version of [this online repo at Replit](https://replit.com/@jennylihan/p5-lab-1).

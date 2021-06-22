@@ -39,13 +39,13 @@ open index.html
 
 Your mission today is to go through as many of the following code snippets as possible. Each code snippet will explore an aspect of p5.js.
 
-HINT: You can find all of the answers to the questions below at [p5.js.org](https://p5js.org).
+HINT: You can find all of the answers to the questions below at [p5.js.org](https://p5js.org). If you get stuck, flag an instructor!
 
 1. [01_background](./01_background/sketch.js)
 
 - What are the parameters (aka inputs) of `createCanvas()`?
-- Change the canvas size to the full width and full height of your screen.
-- Why is there a quick flash every time you load the page? Get rid of the flash.
+- Change the canvas size to the full width and full height of your screen, using the variables [here](https://p5js.org/reference/#/p5/displayHeight) or [here](https://p5js.org/reference/#/p5/windowHeight).
+- Why is there a quick flash every time you load the page? Get rid of the flash. (Hint: it has to do with setup vs draw).
 - Change the background of this canvas to bright pink. You may want to use [this reference](https://p5js.org/reference/#/p5/background).
 
 2.  [02_shapes](./02_shapes/sketch.js)
@@ -54,6 +54,7 @@ HINT: You can find all of the answers to the questions below at [p5.js.org](http
 - Change the inputs for either the rectangle or the ellipse so that they are not overlapping on the screen.
 - Change the color of the stroke.
 - Change the stroke to `noStroke()`
+- Change the thickness of the stroke with [strokeWeight](https://p5js.org/reference/#/p5/strokeWeight).
 - Change the color of the fill.
 - Change the fill to `noFill()`
 - Create at least one more type of shape by going to the "Shapes" section of the reference [here](https://p5js.org/reference/).
@@ -71,11 +72,11 @@ Example:
 4.  [04_shapescheck](./04_shapescheck/sketch.js)
 
 - Nice! Now talk through this javascript file. Make sure everyone in your group feels good about every single line of code in here before moving on.
-- Add some color to this creature!
+- Optional: add some color to this creature!
 
 5. [05_variables](./05_variables/sketch.js)
 
-- There's a lot going on in this code snippet (it's actually 2 code snippets), but the focus is on variables.
+- There's a lot going on in this code snippet (it's actually 2 code snippets, but one is commented out for now), but let's just focus on the variables.
 - First, check out the variables `y` and `d`. Change those and see what happens.
 
 - Then, comment out lines 17 - 21. Uncomment lines 23 - 36.
@@ -86,8 +87,8 @@ Example:
 6. [06_mouseVariables](./06_mousevariables/sketch.js)
 
 - `mouseX` and `mouseY` are two variables built-in to p5.js that you'll find very useful.
-- Currently this sketch draws a single ellipse at the location (x = 20, y = 30). Change one line so that you draw an ellipse at the same location as your mouse every frame (hint: use the two variables above!).
-- Use console.log() to log the mouseX and mouseY within the `draw()` function. Check that it's logging in the console!
+- Currently this sketch draws a single ellipse at the location (x = 20, y = 30). Change one line so that you draw an ellipse at the same location as your mouse every frame.
+- Use console.log() to log the mouseX and mouseY within the `draw()` function. Check that it's logging in the console of your browser. 
 - Comment out line 15. What difference does that make, and why?
 
 - Let's add one more mouse variable: `mousePressed`. Copy-paste this code right before you create the ellipse in the `draw()` function.
@@ -102,7 +103,7 @@ Example:
 
 7. [07_events](./07_events/sketch.js)
 
-- We're going to use some built-in event listeners within p5.js. Event listeners are functions that get triggered every time a specific event happens, such as a mouse click (`mouseClicked`) or a keyboard character being entered (`keyPressed`).
+- We're going to use some built-in event listeners within p5.js. Event listeners are functions that get triggered every time a specific event happens. Two examples of events: a mouse click (`mouseClicked`) or a keyboard character being entered (`keyPressed`).
 - Run the code. Then comment the lines and uncomment lines 28 - 41. What is the difference between using the variable `mouseIsPressed` and the event listenered `mouseClicked`?
 - Then copy-paste this code below in line 43:
 

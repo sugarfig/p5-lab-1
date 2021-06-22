@@ -54,7 +54,7 @@ HINT: You can find all of the answers to the questions below at [p5.js.org](http
 
 3. 🎨 [03_colors](./03_colors/sketch.js)
 
-- What is the difference between HSB and RGB? Use `colorMode()` and the online reference to set the background to light grey using HSB values.
+- What is the difference between HSB and RGB? Use `colorMode()` and the online reference to set the background to [light grey](https://www.colorhexa.com/d3d3d3) using HSB values.
 - Add a fourth number in between 0 and 255 to the `fill()` function. What happens? This fourth argument is called the alpha.
 
 ```

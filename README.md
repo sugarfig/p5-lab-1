@@ -8,13 +8,10 @@ You'll be working in groups of 3. We suggest the following setup:
 
 Option 1:
 
-- All 3 of you clone the repo in the terminal:
+- All 3 of you fork the repo, then clone it to your local computer. 
+<img width="363" alt="image" src="https://user-images.githubusercontent.com/26272095/122925916-29470f80-d31c-11eb-9e97-2b32bd176dd1.png">
 
-```
-git clone https://github.com/Snap-Engineering-Academy-2021/p5-lab-1.git
-```
-
-- Take turns sharin screen.
+- Take turns sharing screen.
 - When 1 person shares screen, the other 2 follow along, typing on their own computers as well.
 - To run the code, go to the relevant folder and type `open index.html` in the terminal. For example, if you want to open the first code snippet and you were already in `p5-lab-1`, you would type:
 
@@ -82,7 +79,6 @@ Example:
 - Then, comment out lines 17 - 21. Uncomment lines 23 - 36.
 - Check out the variables `background`, `length`, `angle`, and `loops`. Make changes to the variables and see what happens.
 - There are 3 ways to declare a variable in Javascript. What is the difference between `var`, `let`, and `const`? If you get stuck, you can refer to [this guide](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/).
-- Talk through every line of the code and make sure everyone in your group feels good about what it's doing! Flag an instructor to join your breakout room before moving on.
 
 6. [06_mouseVariables](./06_mousevariables/sketch.js)
 
@@ -116,6 +112,7 @@ function keyPressed(){
 ```
 
 - What happens if you run the code and click the right arrow key? Now add another conditional statement so that the diameter of the circle shrinks if you hit the left arrow key.
+- 🚧 Talk through every line of the code and make sure everyone in your group feels good about what it's doing! Flag an instructor to join your breakout room before moving on.
 
 # Concept Check: Make a Giant Crayon
 

@@ -48,8 +48,8 @@ HINT: You can find all of the answers to the questions below at [p5.js.org](http
 - What are the inputs for `rect()` and `ellipse()`? You may want to check out [this reference](https://p5js.org/reference/#/p5/ellipse).
 - Change the inputs for either the rectangle or the ellipse so that they are not overlapping on the screen.
 - Change the color of the stroke.
-- Change the thickness of the stroke with [strokeWeight](https://p5js.org/reference/#/p5/strokeWeight).
 - Change the stroke to `noStroke()`
+- Add the stroke back in. Change the thickness of the stroke with [strokeWeight](https://p5js.org/reference/#/p5/strokeWeight).
 - Change the color of the fill.
 - Change the fill to `noFill()`
 - Create at least one more type of shape by going to the "Shapes" section of the reference [here](https://p5js.org/reference/).

@@ -24,15 +24,10 @@ open index.html
 
 Option 2:
 
-- Person 1 forks a version of this online repo at Replit.
+- Person 1 forks a version of [this online repo at Replit](https://replit.com/@jennylihan/p5-lab-1).
 - Person 1 shares the Invite link with Person 2 and 3.
 - All three people can type at the same time (like Google Docs)!
-- To run the code, change the URL path.
-
-```
-cd 01_background
-open index.html
-```
+- To run the code, open the URL in a new tab. 
 
 # To Do
 

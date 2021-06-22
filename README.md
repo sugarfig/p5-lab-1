@@ -99,7 +99,7 @@ Example:
 7. 🎹 [07_events](./07_events/sketch.js)
 
 - We're going to use some built-in event listeners within p5.js. Event listeners are functions that get triggered every time a specific event happens. Two examples of events: a mouse click (`mouseClicked`) or a keyboard character being entered (`keyPressed`).
-- Run the code. Then comment the lines and uncomment lines 28 - 41. What is the difference between using the variable `mouseIsPressed` and the event listenered `mouseClicked`?
+- Run the code. Then comment the lines and uncomment lines 28 - 41. What is the difference between using the variable `mouseIsPressed` and the event listener `mouseClicked`?
 - Then copy-paste this code below in line 43:
 
 ```

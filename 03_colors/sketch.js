@@ -4,6 +4,7 @@
 
 // Example 1-3: RGB Color
 function setup() {
+    createCanvas(displayWidth, displayHeight);
     noStroke();
 }
   
@@ -11,15 +12,15 @@ function setup() {
   
     background(255);
     
-    // Bright red
+    // Bright red -> change my fill!
     fill(255,0,0);
-    ellipse(20,20,16,16);
+    ellipse(100,100,100,100);
   
-    // Dark red
+    // Dark red -> change my fill!
     fill(127,0,0);
-    ellipse(40,20,16,16);
+    ellipse(300,100,100,100);
   
-    // Pink (pale red)
+    // Pink (pale red) -> change my fill!
     fill(255,200,200);
-    ellipse(60,20,16,16);
+    ellipse(500,100,100,100);
   }

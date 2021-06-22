@@ -39,30 +39,44 @@ HINT: You can find all of the answers to the questions below at [p5.js.org](http
 1. 🌈 [01_background](./01_background/sketch.js)
 
 - What are the parameters (aka inputs) of `createCanvas()`?
+  > width, height.
 - Change the canvas size to the full width and full height of your screen, using the variables [here](https://p5js.org/reference/#/p5/displayHeight) or [here](https://p5js.org/reference/#/p5/windowHeight).
+
 - Why is there a quick flash of green every time you load the page? Get rid of the flash. (Hint: it has to do with setup vs draw).
+  > It's because we're briefly setting the background in setup.
 - Change the background of this canvas to bright pink. You may want to use [this reference](https://p5js.org/reference/#/p5/background).
 
 2. 🟪 [02_shapes](./02_shapes/sketch.js)
 
 - What are the inputs for `rect()` and `ellipse()`? You may want to check out [this reference](https://p5js.org/reference/#/p5/ellipse).
+  > for ellipse, the four inputs are: x-position, y-position, width, heigh
+  > for rect, the four inputs are: x-position, y-position, width, height, which is optional
 - Change the inputs for either the rectangle or the ellipse so that they are not overlapping on the screen.
 - Change the color of the stroke.
-- Change the stroke to `noStroke()`
 - Change the thickness of the stroke with [strokeWeight](https://p5js.org/reference/#/p5/strokeWeight).
-- Change the color of the fill.
+- Change the stroke to `noStroke()`
+
 - Change the fill to `noFill()`
+- Change the color of the fill.
 - Create at least one more type of shape by going to the "Shapes" section of the reference [here](https://p5js.org/reference/).
 
 3. 🎨 [03_colors](./03_colors/sketch.js)
 
-- What is the difference between HSB and RGB? Use `colorMode()` and the online reference to set the background to [light grey](https://www.colorhexa.com/d3d3d3) using HSB values.
+- Change the three colors of the three ellipses.
+
 - Add a fourth number in between 0 and 255 to the `fill()` function. What happens? This fourth argument is called the alpha.
 
 ```
 Example:
     fill(255,0,0); --> fill(255, 0, 0, 200);
 ```
+
+> This should change the opacity.
+
+- What is the difference between HSB and RGB? Copy-paste some of the code snippets from [the p5 colorMode() documentation](https://p5js.org/reference/#/p5/colorMode) to play around with it.
+
+> RGB stands for "Red", "Green", "Blue"; the inputs go from 0 to 255.
+> HSB stands for "Hue", "Saturation", "Brightness"; the inputs go from 0 to 360.
 
 4. ✅ [04_shapescheck](./04_shapescheck/sketch.js)
 
@@ -98,7 +112,11 @@ Example:
 7. 🎹 [07_events](./07_events/sketch.js)
 
 - We're going to use some built-in event listeners within p5.js. Event listeners are functions that get triggered every time a specific event happens. Two examples of events: a mouse click (`mouseClicked`) or a keyboard character being entered (`keyPressed`).
-- Run the code. Then comment the lines and uncomment lines 28 - 41. What is the difference between using the variable `mouseIsPressed` and the event listenered `mouseClicked`?
+- Run the code. Then comment the lines and uncomment lines 28 - 41. What is the difference between using the variable `mouseIsPressed` and the event listener `mouseClicked`?
+
+  > mouseIsPressed lets you continuously increment the diameter smoothly.
+  > mouseClicked only happens once at a time.
+
 - Then copy-paste this code below in line 43:
 
 ```

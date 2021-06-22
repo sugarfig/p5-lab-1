@@ -8,10 +8,9 @@ You'll be working in groups of 3. We suggest the following setup:
 
 Option 1:
 
-- All 3 of you fork the repo, then clone it to your local computer. 
-![fork](https://user-images.githubusercontent.com/26272095/122926841-1f71dc00-d31d-11eb-8c40-7d51b9380018.gif)
-![clone](https://user-images.githubusercontent.com/26272095/122926863-24cf2680-d31d-11eb-8215-356e1f2f73c0.gif)
-
+- All 3 of you fork the repo, then clone it to your local computer.
+  ![fork](https://user-images.githubusercontent.com/26272095/122926841-1f71dc00-d31d-11eb-8c40-7d51b9380018.gif)
+  ![clone](https://user-images.githubusercontent.com/26272095/122926863-24cf2680-d31d-11eb-8215-356e1f2f73c0.gif)
 
 - Take turns sharing screen.
 - When 1 person shares screen, the other 2 follow along, typing on their own computers as well.
@@ -27,7 +26,7 @@ Option 2:
 - Person 1 forks a version of [this online repo at Replit](https://replit.com/@jennylihan/p5-lab-1).
 - Person 1 shares the Invite link with Person 2 and 3.
 - All three people can type at the same time (like Google Docs)!
-- To run the code, open the URL in a new tab. 
+- To run the code, open the URL in a new tab.
 
 # To Do
 
@@ -39,7 +38,7 @@ HINT: You can find all of the answers to the questions below at [p5.js.org](http
 
 - What are the parameters (aka inputs) of `createCanvas()`?
 - Change the canvas size to the full width and full height of your screen, using the variables [here](https://p5js.org/reference/#/p5/displayHeight) or [here](https://p5js.org/reference/#/p5/windowHeight).
-- Why is there a quick flash every time you load the page? Get rid of the flash. (Hint: it has to do with setup vs draw).
+- Why is there a quick flash of green every time you load the page? Get rid of the flash. (Hint: it has to do with setup vs draw).
 - Change the background of this canvas to bright pink. You may want to use [this reference](https://p5js.org/reference/#/p5/background).
 
 2. 🟪 [02_shapes](./02_shapes/sketch.js)
@@ -81,7 +80,7 @@ Example:
 
 - `mouseX` and `mouseY` are two variables built-in to p5.js that you'll find very useful.
 - Currently this sketch draws a single ellipse at the location (x = 20, y = 30). Change one line so that you draw an ellipse at the same location as your mouse every frame.
-- Use console.log() to log the mouseX and mouseY within the `draw()` function. Check that it's logging in the console of your browser. 
+- Use console.log() to log the mouseX and mouseY within the `draw()` function. Check that it's logging in the console of your browser.
 - Comment out line 15. What difference does that make, and why?
 
 - Let's add one more mouse variable: `mousePressed`. Copy-paste this code right before you create the ellipse in the `draw()` function.

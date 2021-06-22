@@ -3,9 +3,9 @@
 
 function setup() {
     createCanvas(480, 270);
-    background(140);
+    background('green');
   }
   
   function draw() {
-    background(51);
+    background('yellow');
   }

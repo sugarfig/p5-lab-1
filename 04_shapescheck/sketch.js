@@ -10,7 +10,7 @@ function setup() {
   }
   
   function draw() {
-    
+    // console.log(mouseX, mouseY);
     background(255);
   
     // Body

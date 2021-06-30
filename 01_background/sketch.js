@@ -1,11 +1,16 @@
 
 // Example 1-1: stroke and fill
 
-function setup() {
-    createCanvas(480, 270);
-    background('green');
+function setup() 
+{
+
+    createCanvas(windowWidth, windowHeight);
+    // background('green');
+    //same color as background that is drawn
+    // background('yellow');
   }
   
-  function draw() {
-    background('yellow');
+  function draw() 
+  {
+    background('#fae');
   }

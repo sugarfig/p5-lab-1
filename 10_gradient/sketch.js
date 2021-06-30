@@ -9,7 +9,8 @@ function setup() {
 } 
 
 function draw() { 
-  var percentage = map(mouseX, 0, width, 0, 1);
+  var percentage = map(mouseY, 0, height, 0, 1);
+  // colorMode(HSB);
   var color = lerpColor(color1, color2, percentage);
   stroke(250);
   fill(color);

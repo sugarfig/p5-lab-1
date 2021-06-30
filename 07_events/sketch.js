@@ -40,8 +40,13 @@ function draw() {
 //     d++;
 // }
 
-function keyPressed(){
+function keyPressed()
+{
   if (keyCode === RIGHT_ARROW) {
     d += 200;
+  }
+  else if(keyCode === LEFT_ARROW)
+  {
+    d -= 200;
   }
 }
